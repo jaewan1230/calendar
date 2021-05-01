@@ -77,6 +77,7 @@ function renderCalender() {
         $(document.getElementsByClassName("selected")).removeClass("selected");
         $(this).addClass("selected");
 
+        curYear = viewYear;
         curDate = $(this).text();
         curMonth = viewMonth;
         selectedDate.setDate(1);
